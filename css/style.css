@@ -1,0 +1,149 @@
+img{
+    max-width: 100%;
+    height: auto;
+    
+}
+.header{
+    background:#2A92DF;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.header img{
+    width: 160px;
+    height: auto;
+    padding: 10px 0;
+}
+}
+.header ul{
+
+margin-bottom: 0;
+}
+.header ul li{
+    display: inline-block;
+}
+.header ul li a{
+    color: #fff;
+    padding: 33px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 55px;
+
+}
+.header ul li a:hover{
+    background: #2980b9;
+}
+
+.banner{
+    background: url(../images/banner-1.jpg);
+    padding: 200px 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.banner-text  h1{
+    text-shadow:1px 13px 5px #aba8a8;
+}
+.banner-text h2{
+    background:#91C3E5;
+    display: inline-block;
+    padding:10px 30px;
+    border-radius: 3px;
+    color: #fff;
+    text-shadow: 2px 2px #FF0000;
+}
+
+.about{
+    background: #F0F1F3;
+}
+.card span i{
+    background: #3095DC;
+    padding: 13px 16px;
+    border-radius: 0px 14px;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* blog */
+.product-item-right h2{
+    border-bottom: 1px solid #dddddd;
+}
+.product-item-right ul{
+    list-style: none;
+}
+.product-item-right ul li{
+    padding: 15px 0;
+    background: #F0F1F3;
+    border-bottom: 1px solid #ddd;
+}
+
+/* footer */
+.footer{
+    background:#344A5D ;
+}
+
+.socail-menu{
+    list-style: none;
+}
+.socail-menu  li{
+    display: inline-block;
+    padding: 10px 20px;
+    color:#fff ;
+}
+.socail-menu  li a{
+    text-decoration: none;
+    color:#fff ;
+}
+.copy_p p{
+
+}
+
+
+
+.portfolio-area{
+    padding:60px 0px;
+    background:#f1f1f1;
+}
+.portfolio-area h2{
+    text-align: center;
+    margin-bottom:40px;
+    font-size:30px;
+}
+.single-item{
+    display: inline-block;
+    vertical-align: middle;
+    width:25%;
+    margin:-2px;
+    position: relative;
+}
+.img-thumbnail img{
+    width:100%;
+}
+
+
+/*Controls CSS*/
+button:focus{
+    outline: none;
+}
+.controls{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.controls button{
+    background: #000;
+    border:none;
+    color:#fff;
+    font-size:16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding:10px 23px;
+    margin-bottom: 5px;
+    transition: .4s;
+}
+.controls button:hover, button.mixitup-control-active{
+    background: #15e2cf;
+    cursor:pointer;
+}
+
+
+
